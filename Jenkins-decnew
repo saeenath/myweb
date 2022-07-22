@@ -7,7 +7,7 @@ pipeline{
     stages{
         stage("Git Checkout"){
             steps{
-             sh "rm -rf webapps"
+             sh "rm -rf myweb"
              sh "git clone  https://github.com/saeenath/myweb.git"
            }
         }
